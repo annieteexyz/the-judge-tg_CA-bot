@@ -1,0 +1,29 @@
+{
+  "name": "the-judge-tg_ca-bot",
+  "version": "1.0.0",
+  "description": "The Judge in Telegram that sends a CA to The Judge and posts the ruling in a group.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annieteexyz/the-judge-tg_CA-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/annieteexyz/the-judge-tg_CA-bot/issues"
+  },
+  "homepage": "https://github.com/annieteexyz/the-judge-tg_CA-bot#readme",
+  "dependencies": {
+    "@ponsmcp/sdk": "^2.3.1",
+    "axios": "^1.20.0",
+    "dotenv": "^18.0.7",
+    "telegraf": "^4.16.3",
+    "viem": "^2.57.4"
+  }
+}
